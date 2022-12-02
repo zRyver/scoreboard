@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background: #1B244A;
+    margin: 10px 50px 20px;
+}
+.score-container {
+    height: 120px;
+    width: 155px;
+    left: 82px;
+    top: 125px;
+    border-radius: 5px;
+    background: #080001;
+    display: flex;
+    align-items: center;
+    
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    text-align: center;
+}
+.score{
+    color: #F94F6D;
+    font-family: 'Iceland', cursive;
+    position: relative;
+    left: 35%;
+    font-size: 5rem;
+}
+
+.plus{
+    height: 45px;
+    width: 45px;
+    left: 337px;
+    top: 271px;
+    border: solid 2px #9AABD8;
+    border-radius: 5px;
+    background-color: inherit;
+    color: #9AABD8;
+}
+.addpoint{
+    height: 45px;
+    width: 155px;
+    left: 82px;
+    top: 271px;
+    border-radius: 5px;
+
+}
